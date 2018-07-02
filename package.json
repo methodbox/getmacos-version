@@ -1,0 +1,26 @@
+{
+  "name": "get-proper-macos-version",
+  "version": "1.0.0",
+  "description": "Get the proper macOS version in a proper JS object from STDOUT using the native sw_vers command.",
+  "main": "getmacos-version.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "get-proper-macos-version"
+  },
+  "keywords": [
+    "macos",
+    "version",
+    "stdout",
+    "nodejs",
+    "stdin",
+    "native"
+  ],
+  "author": "methodbox.io (Chris A. Shaffer)",
+  "license": "ISC",
+  "dependencies": {
+    "node-cmd": "^3.0.0"
+  }
+}
